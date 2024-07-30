@@ -6,7 +6,7 @@ addTaskBtn.addEventListener("click", () => {
     const taskTex = taskinput.value.trim();
     if (taskTex.length!==''){
         const tasKListItem = document.createElement("LI");
-        tasKListtItem.textContent = taskText;
+        tasKListItem.textContent = taskText;
         tasKLis.appendChild(tasKListItem);
         taskinput.value = '';
     }

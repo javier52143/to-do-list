@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#task-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#add-task-btn {
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #3e8e41;
+}
+
+#task-list li {
+    background-color: aquamarine;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child{
+    border-bottom: none;
+}
+
+
